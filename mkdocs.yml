@@ -1,7 +1,7 @@
-site_name: Manufacturing Engineering Knowledge Base
+site_name: Process Engineering Knowledge Base
 site_description: Process Engineering, NPI, equipment, server platforms, SOPs, PFMEA, control plans, and engineering templates.
 site_url: https://compalcut.github.io/engineering-wiki/
-repo_url: https://github.com/YOUR-USERNAME/engineering-wiki
+repo_url: https://github.com/xompalcut/engineering-wiki
 repo_name: compalcut/engineering-wiki
 edit_uri: edit/main/docs/
 
