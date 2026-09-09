@@ -1,4 +1,4 @@
-# Manufacturing Engineering Knowledge Base
+# Process Engineering Knowledge Base
 
 A Confluence-style engineering knowledge base built with **MkDocs Material** and hosted using **GitHub Pages**.
 
