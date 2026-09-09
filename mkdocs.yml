@@ -37,6 +37,7 @@ theme:
 
 plugins:
   - search
+  - awesome-pages
 
 markdown_extensions:
   - admonition
@@ -58,37 +59,3 @@ markdown_extensions:
 
 extra_css:
   - assets/extra.css
-
-nav:
-  - Home: index.md
-
-  - Process Engineering:
-      - Overview: process-engineering/index.md
-      - Process Flows: process-engineering/process-flows.md
-      - PFMEA: process-engineering/pfmea.md
-      - Control Plans: process-engineering/control-plans.md
-      - SOPs & Work Instructions: process-engineering/sops-work-instructions.md
-
-  - NPI:
-      - Overview: npi/index.md
-      - NPI Checklist: npi/npi-checklist.md
-      - Build Readiness: npi/build-readiness.md
-      - Lessons Learned: npi/lessons-learned.md
-
-  - Equipment:
-      - Overview: equipment/index.md
-      - Testers: equipment/testers.md
-      - Conveyors & Material Handling: equipment/conveyors-material-handling.md
-      - Fixtures & Tooling: equipment/fixtures-tooling.md
-      - ASRS: equipment/asrs.md
-
-  - Server Platforms:
-      - Overview: server-platforms/index.md
-      - HGX B300: server-platforms/hgx-b300.md
-      - LERG2: server-platforms/lerg2.md
-
-  - Forms & Templates:
-      - Overview: forms-templates/index.md
-      - Process Change Request: forms-templates/process-change-request.md
-      - Root Cause Analysis: forms-templates/root-cause-analysis.md
-      - Engineering Meeting Notes: forms-templates/engineering-meeting-notes.md
