@@ -1,4 +1,4 @@
-# Manufacturing Engineering Knowledge Base
+# Process Engineering Knowledge Base
 
 Welcome to the central documentation site for manufacturing engineering, NPI, equipment, server platforms, process controls, and continuous improvement.
 
