@@ -1,0 +1,87 @@
+site_name: Manufacturing Engineering Knowledge Base
+site_description: Process Engineering, NPI, equipment, server platforms, SOPs, PFMEA, control plans, and engineering templates.
+site_url: https://compalcut.github.io/engineering-wiki/
+repo_url: https://github.com/YOUR-USERNAME/engineering-wiki
+repo_name: compalcut/engineering-wiki
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - assets/extra.css
+
+nav:
+  - Home: index.md
+  - Process Engineering:
+      - Overview: process-engineering/index.md
+      - Process Flows: process-engineering/process-flows.md
+      - PFMEA: process-engineering/pfmea.md
+      - Control Plans: process-engineering/control-plans.md
+      - Work Instructions & SOPs: process-engineering/work-instructions.md
+  - NPI:
+      - Overview: npi/index.md
+      - NPI Checklist: npi/npi-checklist.md
+      - Build Readiness: npi/build-readiness.md
+      - Lessons Learned: npi/lessons-learned.md
+  - Equipment:
+      - Overview: equipment/index.md
+      - Testers: equipment/testers.md
+      - Conveyors & Material Handling: equipment/conveyors.md
+      - Fixtures & Tooling: equipment/fixtures.md
+      - ASRS: equipment/asrs.md
+  - Server Platforms:
+      - Overview: server-platforms/index.md
+      - HGX B300: server-platforms/hgx-b300.md
+      - LERG2: server-platforms/lerg2.md
+  - Forms & Templates:
+      - Overview: templates/index.md
+      - Process Change Request: templates/process-change-request.md
+      - Issue / RCA Template: templates/issue-rca.md
+      - Meeting Notes: templates/meeting-notes.md
